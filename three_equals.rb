@@ -7,7 +7,7 @@ class Car
     end
 
     # The way that the three equal operator works is via the implicit use of the method ===
-    # This method returns returns true or false base on the comparasion of the maker of the car.
+    # This method returns true or false base on the comparasion of the maker of the car.
     def ===(another_object)
         self.make == another_object.make
     end
