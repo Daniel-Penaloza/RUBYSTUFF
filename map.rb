@@ -14,3 +14,5 @@ class Array
 names = ["David", "Alan", "Black"]
 puts names.my_map {|name| name.upcase}
 
+
+
